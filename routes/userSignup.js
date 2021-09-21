@@ -3,7 +3,7 @@ var router = express.Router();
 const User = require('../models/user');
 const bcrypt = require('bcrypt');
 
-router.post('/signup', async function (req, res) {
+router.post('/signup', async (req, res) => {
   console.log("recieved payload", req.body);
 
   const { name, email, password, phone } = req.body;
