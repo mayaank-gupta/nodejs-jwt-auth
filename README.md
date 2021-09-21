@@ -34,7 +34,7 @@ Install the dependencies and start the server.
 ```sh
 cd nodejs-jwt-auth
 npm install
-node index.js
+node app.js
 ```
 
 Happy Coding!
